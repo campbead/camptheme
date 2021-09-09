@@ -1,0 +1,10 @@
+Package: camptheme
+Type: Package
+Title: Campbead's Custom ggplot Theme
+Version: 0.1.0
+Author: Adam J Campbell
+Maintainer: Adam J Campbell <campbead@gmail.com>
+Description: A custom ggplot theme.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
