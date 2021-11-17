@@ -1,3 +1,19 @@
+#' Light colored campbead theme for ggplot
+#'
+#' This function all sets a light-colored theme for ggplot
+#' @keywords ggplot, theme
+#' @export
+#' @importFrom ggplot2 '%+replace%'
+#' @importFrom ggplot2 theme_minimal
+#' @importFrom ggplot2 theme
+#' @importFrom ggplot2 element_line
+#' @importFrom ggplot2 element_rect
+#' @importFrom ggplot2 element_text
+#' @importFrom ggplot2 unit
+#' @importFrom ggplot2 margin
+#' @examples
+#' theme_campbead()
+
 theme_campbead <- function(){
   font_main <- "Karla"
   font_numbers <- "Fira Mono"
@@ -84,6 +100,15 @@ theme_campbead <- function(){
     )
 
 }
+
+#' Dark colored campbead theme for ggplot
+#'
+#' This function all sets a dark-colored theme for ggplot
+#' @keywords ggplot, theme
+#' @export
+#' @importFrom ggplot2 '%+replace%'
+#' @examples
+#' theme_campbead_dark()
 
 theme_campbead_dark <- function(){
   theme_campbead() %+replace%
